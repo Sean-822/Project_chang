@@ -2,6 +2,7 @@ package com.example.dimensionalanalysis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,11 +10,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private AnimationDrawable anim;
+    private Button button;
+
     //Initial class declarations
     EditText editText;
     TextView textView, textView2, textView3, valueininches;
-    Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }));
-
 
 
     }
