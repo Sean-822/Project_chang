@@ -4,8 +4,6 @@
     <item android:drawable="@drawable/color_1_btn_1"
     android:duration="2500"/>
 
-    <item android:drawable="@drawable/color_1_btn_2"
-        android:duration="2500"/>
 
     <item android:drawable="@drawable/color_1_btn_3"
         android:duration="2500"/>
